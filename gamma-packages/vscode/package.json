@@ -1,0 +1,15 @@
+{
+  "name": "@gamma-js/vscode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gamma-js/vscode",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "types": "./index.d.ts",
+  "exports": {
+    ".": "./index.js",
+    "./*": "./*.js"
+  }
+}
